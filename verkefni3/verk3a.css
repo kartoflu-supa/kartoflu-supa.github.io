@@ -12,53 +12,63 @@
 .grid1{
     grid-area: haus;
     background: brown;
+    padding: 1em;
 }
 
 .grid2{
     grid-area: hlekkur1;
     background: pink; 
+    padding: 1em;
 }
 
 .grid3{
     grid-area: hlekkur2;
     background: yellow; 
+    padding: 1em;
 }
 
 .grid4{
     grid-area: hlekkur3;
     background: seagreen; 
+    padding: 1em;
 }
 
 .grid5{
     grid-area: hlekkur4;
     background: purple; 
     color: white;
+    padding: 1em;
 }
 
 .grid6{
     grid-area: hlekkur5;
     background: orange; 
+    padding: 1em;
 }
 
 .grid7{
     grid-area: vinstri;
     background: black;
     color: white;
+    padding: 1em;
 }
 
 .grid8{
     grid-area: midja;
     background: wheat;
+    padding: 1em;
 }
 
 .grid9{
     grid-area: haegri;
     background: red;
+    padding: 1em;
 }
 
 .grid10{
     grid-area: fotur;
     background: gray;
+    padding: 1em;
 }
 body{
 
