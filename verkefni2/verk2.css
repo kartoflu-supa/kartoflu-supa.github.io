@@ -1,0 +1,53 @@
+h1{
+    border: solid 5px green;
+    }
+.reddering{
+    padding: 100px; 
+        border: solid 5px red;
+            margin: 2em
+    }
+.bludoring{
+    border: dashed 5px blue; 
+        color: blue; 
+            padding: 20px
+        }
+.greedering{
+    display: block;
+        border: dashed 3px green;
+            padding: 1em;
+                margin: 1em;
+}
+.bludreding{
+    display: inline; 
+        padding: 1em;
+            margin: 1em;
+                border: 3px dashed blue;
+                    color: red;
+}
+.redering{
+    display: inline-block;
+        padding: 1em;
+            margin: 1em;
+                border: 3px dashed red
+}
+.margin{
+    margin: 2em
+}
+.float1{
+    float:left;
+    width: 33.33%;
+    border: 3px black solid
+
+}
+.float2{
+    float:left;
+    width: 50%;
+    border: 3px black solid
+
+}
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
