@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(54, 149, 187);
+    font-family: 'Lucida Sans';
+}
+
+.midja{
+    background: linear-gradient(rgb(196, 176, 134),rgb(102, 92, 71));
+    text-align: center;
+}
+
+.center{
+    width: 960px;
+    margin: 0 auto; 
+}
+
+.Blux{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 960px;
+    margin: 0 auto;
+    color: white;
+}
+
+.ghost{
+    background: rgba(255,255,255,50%);
+}
+
+.Blox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 960px;
+    margin: 0 auto;  
+    color: white;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(54, 149, 187);
+    text-align: center;
+}
