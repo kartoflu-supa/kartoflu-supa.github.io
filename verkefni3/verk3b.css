@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+.gridbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+
+.grid1{
+    grid-area: haus;
+    background: orange;
+    padding: 1em;
+}
+
+.grid2{
+    grid-area: hlekkur1;
+    background: rgb(214, 199, 180); 
+    padding: 1em;
+}
+
+.grid3{
+    grid-area: hlekkur2;
+    background: rgb(212, 186, 151); 
+    padding: 1em;
+}
+
+.grid4{
+    grid-area: hlekkur3;
+    background: burlywood; 
+    padding: 1em;
+}
+
+.grid5{
+    grid-area: hlekkur4;
+    background: rgb(212, 157, 85); 
+    padding: 1em;
+}
+
+.grid6{
+    grid-area: hlekkur5;
+    background: rgb(216, 153, 71); 
+    padding: 1em;
+}
+
+.grid7{
+    grid-area: vinstri;
+    background: purple;
+    color: white;
+    padding: 1em;
+}
+
+.grid8{
+    grid-area: midja;
+    background: magenta;
+    padding: 1em;
+}
+
+.grid9{
+    grid-area: haegri;
+    background: plum;
+    padding: 1em;
+}
+
+.grid10{
+    grid-area: fotur;
+    background: teal;
+    padding: 1em;
+}
+body{
+
+    font-family: 'Spirax', cursive;
+}
