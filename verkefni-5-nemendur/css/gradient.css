@@ -41,3 +41,22 @@ body{
     background-color: rgb(54, 149, 187);
     text-align: center;
 }
+
+.fixed1{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.fixed2{
+    position: fixed;
+    bottom: 0px;
+    right: 48px;
+    font-size: 55px;
+}
+
